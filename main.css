@@ -1,0 +1,532 @@
+body {
+  background-color: #f6f6f6;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}  
+
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center; 
+}
+
+#name {
+  float: left;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: darkred;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+}
+
+.nav-link:hover{
+  color: black;
+  font-weight: bold;
+}
+
+#homePic {
+  position: relative;
+  border: 3px solid black;
+  top: 50px;
+  height: 910px;
+  width: 110%;
+  left: -10px;
+}
+
+.waterPic {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.welcome {
+  position: relative;
+  color: white;
+  bottom: 70%;
+  text-align: center;
+  font-size: 50px;
+  width: 780px;
+  left: 580px;
+}
+
+.work {
+  position: relative;
+  bottom: 660px;
+  left: 42%;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+}
+
+.work:hover {
+  color: black;
+  font-weight: bold;
+}
+
+#me {
+    position: relative;
+    border: 3px solid black;
+    top: 55px;
+    height: 925px;
+}
+
+#aboutMe {
+  position: relative;
+  left: 50%;
+  font-size: 50px;
+}
+
+.aboutImg {
+  position: relative;
+  left: 50px;
+  height: 600px;
+  bottom: 50px;
+}
+
+.whoIAm {
+  position: relative;
+  bottom: 500px;
+  left: 55%;
+  width: 40%;
+  font-size: 20px;
+}
+
+.background {
+  position: relative;
+  bottom: 100px;
+  left: 25px;
+  width: 40%;
+  font-size: 20px;
+}
+
+.coding {
+  position: relative;
+  bottom: 500px;
+  left: 65%;
+  height: 400px;
+}
+
+#skills {
+    position: relative;
+    border: 3px solid black;
+    top: 100px;
+    height: 400px;
+}
+
+.skillList {
+  float: right;
+  text-align: center;
+  list-style-type: none;
+  height: 50%;
+  width: 100%;
+  font-size: 50px;
+}
+
+.media{
+  position: relative;
+  top: -130px;
+  text-align: center;
+  height: 700px;
+}
+
+.htmlLogo, .jsLogo, .cssLogo, .gitLogo {
+  display: inline;
+  position: relative;
+  font-size: 100px;
+}
+
+.htmlDiv {
+  position: relative;
+  bottom: 20px;
+  right: 30%;
+}
+
+.cssDiv {
+  position: relative;
+  bottom: 250px;
+  right: 10%;
+  height: 100px;
+}
+
+.jsDiv {
+  position: relative;
+  bottom: 140px;
+  left: 10%;
+}
+
+.gitLogo {
+  position: relative;
+  bottom: 350px;
+  left: 35%;
+}
+
+.htmlP {
+  position: relative;
+  bottom: 50%;
+  right: 28%;
+  font-size: 30px;
+}
+
+.htmlC {
+  position: relative;
+  bottom: 59%;
+  right: 9%;
+  font-size: 30px;
+}
+
+.htmlJ {
+  position: relative;
+  bottom: 68%;
+  left: 12%;
+  font-size: 30px;
+}
+
+.htmlG {
+  position: relative;
+  bottom: 77%;
+  left: 36%;
+  font-size: 30px;
+}
+
+#edEx {
+    position: relative;
+    border: 3px solid black;
+    top: -300px;
+   height: 600px;
+}
+
+.educationTitle {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+}
+
+.elevenPic {
+  position: relative;
+  left: 620px;
+  top: 40px;
+  height: 290px;
+}
+
+.eleven {
+  position: relative;
+  left: 300px;
+  font-size: 30px;
+  top: 80px;
+}
+
+.elevenInfo {
+  position: relative;
+  top: 80px;
+  left: 540px;
+}
+
+.liberty {
+  position: relative;
+  left: 680px;
+  font-size: 30px;
+  top: 75px;
+}
+
+.libertyInfo {
+  position: relative;
+  top: 45px;
+  left: 1100px;
+}
+
+.libertyPic{
+  position: relative;
+  height: 285px;
+  left: 400px;
+  top: 38px;
+}
+
+.educationList, .eleven, .liberty {
+  display: inline;
+}
+
+.experience {
+    position: relative;
+    border: 3px solid black;
+    top: 150px;
+    height: 700px;
+}
+
+.experienceTitle {
+  text-align: center;
+  font-size: 50px;
+}
+
+.experienceList, .efa, .barratt, .professional {
+  display: inline;
+}
+
+.professional {
+  position: relative;
+  font-size: 30px;
+  left: 60px;
+}
+
+.barratt {
+  position: relative;
+  font-size: 30px;
+  left: 300px;
+}
+
+.efa {
+  position: relative;
+  font-size: 30px;
+  left: 600px;
+}
+
+.yearOne {
+  position: relative;
+  left: 200px;
+}
+
+.yearTwo {
+  position: relative;
+  left: 870px;
+  bottom: 158px;
+}
+
+.yearThree {
+  position: relative;
+  left: 1450px;
+  bottom: 570px;
+}
+
+.isYearOne {
+  position: relative;
+  width: 30%;
+}
+
+.isYearTwo {
+  position: relative;
+  width: 30%;
+  left: 700px;
+  bottom: 172px;
+}
+
+.isYearThree {
+  position: relative;
+  width: 30%;
+  left: 70%;
+  bottom: 575px;
+}
+
+.gain {
+  position: relative;
+  bottom: 250px;
+  text-align: center;
+}
+
+.resume {
+ position: relative;
+ bottom: 220px;
+ left: 30%;
+ font-size: 32px;
+ cursor: pointer;
+ border-radius: 8px;
+ background-color: #f6f6f6;
+}
+
+.resume:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.checkMe {
+  position: relative;
+  bottom: 300px;
+  left: 1200px;
+  text-align: center;
+  font-size: 80px;
+  cursor: pointer;
+  border: 3px solid black;
+  height: 80px;
+  width: 80px;
+}
+
+.checkMe:hover {
+  color: blue;
+}
+
+#projects {
+    position: relative;
+    border: 3px solid black;
+    top: 250px;
+    height: 600px;
+
+}
+
+.projectTitle {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+}
+
+.all {
+  position: relative;
+  bottom: 180px;
+  left: 740px;
+  font-size: 25px;
+}
+
+.htmlCss {
+  position: relative;
+  bottom: 180px;
+  left: 810px;
+  font-size: 25px;
+}
+
+.javaPro {
+  position: relative;
+  bottom: 180px;
+  left: 860px;
+  font-size: 25px;
+}
+
+.htmlCssImg {
+  position: relative;
+  height: 200px;
+  top: 50px;
+  left: 700px;
+  width: 230px;
+}
+
+.htmlCssImgTwo {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  top: 50px;
+  left:  800px;
+}
+
+.projectList, .all, .htmlCss, .javaPro {
+  display: inline;
+}
+
+#connect {
+    position: relative;
+    border: 3px solid black;
+    top: 300px;
+    height: 400px;
+}
+
+.connectWith {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+}
+
+#firstName {
+  position: relative;
+  left: 700px;
+  font-size: 20px;
+  bottom: 10px;
+  width: 500px;
+}
+
+#lastName {
+  position: relative;
+  left: 188px;
+  font-size: 20px;
+  bottom: -25px;
+  width: 500px;
+}
+
+#email {
+  position: relative;
+  right: 325px;
+  font-size: 20px;
+  bottom: -60px;
+  width: 498px;
+}
+
+#message {
+  position: relative;
+  left: 702px;
+  font-size: 20px;
+  bottom: -136px;
+  height: 100px;
+  width: 500px;
+}
+
+.button {
+  position: relative;
+  left: 625px;
+  top: 180px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: black;
+  font-weight: bold;
+}
+
+#info {
+    position: relative;
+    border: 3px solid black;
+    top: 350px;
+    height: 150px;
+}
+
+.linkFooter, .gitFooter, .codeFooter {
+  position: relative;
+  display: inline;
+  
+}
+
+.linkFooter {
+  position: relative;
+  font-size: 80px;
+  left: 750px;
+  cursor: pointer;
+}
+
+.linkFooter:hover {
+  color: blue;
+}
+
+.gitFooter {
+  position: relative;
+  font-size: 80px;
+  left: 850px;
+  cursor: pointer;
+}
+
+.gitFooter:hover {
+  color:white;
+}
+.codeFooter {
+  position: relative;
+  font-size: 80px;
+  left: 950px;
+  cursor: pointer;
+}
+
+.codeFooter:hover {
+  color: white;
+}
+
+.legal {
+  position: relative;
+  left: 900px;
+  bottom: 20px;
+  font-size: 20px;
+}
